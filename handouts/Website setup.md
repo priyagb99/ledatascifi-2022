@@ -16,14 +16,15 @@
 - Not required to pay to register for a domain name—though you still can
 - Examples:
     - https://julioveracruz.github.io/
-        - https://github.com/julioveracruz/julioveracruz.github.io 
+        - Made by https://github.com/julioveracruz/julioveracruz.github.io 
     - https://julioveracruz.github.io/testwebsite/
-        - https://github.com/julioveracruz/testwebsite  
+        - Made by https://github.com/julioveracruz/testwebsite  
     - https://donbowen.github.io/slides-2022/
+        - Made by https://github.com/donbowen/slides-2022
     - https://square.github.io/
-        - https://github.com/square/square.github.io 
+        - Made by https://github.com/square/square.github.io 
     - https://yelp.github.io/
-        - https://github.com/Yelp/yelp.github.io 
+        - Made by https://github.com/Yelp/yelp.github.io 
 
 ## WALKTHROUGH
 ### Personal website (template version)
@@ -76,7 +77,8 @@
 
 | Option                                                                                                                                 | Pros                                                                                                                                                                                                 | Cons                                                                                                                                                                                                |
 |----------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Default GitHub templates and Markdown files - https://donbowen.github.io/ - https://donbowen.github.io/teamproject/                    | - Easy start - Can use Plotly, Altair to make interactive charts                                                                                                                                     | - Need explicit page links for interactive table of contents, navigation bar - Limited customization options - Hard to “paste” output content into Markdown files - Have to manually convert .ipynb |
-| Finding templates that you like, forking, and customizing - https://jekyllthemes.io/ - http://jekyllthemes.org/ - https://html5up.net/ | - Also easy start - Better customization options - Many have already-developed interactive table of contents, navigation bar, etc. features - Can also use Plotly, Altair to make interactive charts | - Have to learn templates’ repo organizations - Need to reconfigure templates’ files to suit your own needs - Some additional setup needed                                                          |
-| Fastpages - https://github.com/fastai/fastpages                                                                                        | - Publishes ipynb files automatically - Interactive visualizations work automatically                                                                                                                | - More overhead learning                                                                                                                                                                            |
+| Default GitHub templates and Markdown files <br> <ul> <li> https://donbowen.github.io/ </li><li> https://donbowen.github.io/teamproject/   </li></ul>                 | <ul> <li> Easy start </li><li>  Can use Plotly, Altair to make interactive charts     </li></ul>                                                                                                                                 | <ul> <li> Need explicit page links for interactive table of contents, navigation bar </li><li>  Limited customization options </li><li>  Have to “paste” output content into Markdown files </li><li>  Have to manually convert .ipynb files into MD or HTML to post </li></ul> |
+| Finding templates that you like, forking, and customizing  <br> <ul> <li> https://jekyllthemes.io/ </li><li> http://jekyllthemes.org/ </li><li> https://html5up.net/   </li></ul> | <ul> <li> Also easy start </li><li> Better customization options </li><li> Many have already-developed interactive table of contents, navigation bar, etc. features </li><li> Can also use Plotly, Altair to make interactive charts  </li></ul> | <ul> <li> Have to learn template's repo organizations </li><li> Need to reconfigure templates’ files to suit your own needs </li><li>  Have to “paste” output content into Markdown files </li><li>  Have to manually convert .ipynb files into MD or HTML to post </li><li> Some additional setup needed  </li></ul>                                                          |
+| Fastpages - https://github.com/fastai/fastpages                                                                                        | <ul> <li> Publishes ipynb files automatically </li><li> Interactive visualizations work automatically        </li></ul>                                                                                                          | <ul> <li> More overhead learning   </li></ul>                                                                                                                                                                           |
+| Jupyterbooks  <br> <ul> <li> jupyterbook.org/ </li><li> ledatascifi.github.io </li></ul> | <ul> <li> Oh la la </li><li> Lots of customization options </li><li> Best for larger projects </li></ul> | <ul> <li> Have to learn template's repo organizations </li><li> Need to reconfigure templates’ files to suit your own needs </li><li> Some additional setup needed  </li></ul>                                                          |
 
