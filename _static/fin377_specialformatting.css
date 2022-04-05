@@ -74,8 +74,34 @@ ul.sidenav_l1:not(.current) {
 /* tried to reduce margin-bottom on p elements (in tables only) to 0 */ 
 /* tried to reduce padding on td elements (in tables only) a bit */
 
+@media print, screen and (max-width: 800px) {
 
+	.topbar {
+		background-color: white;
+	}
 
+	.margin {
+		display: none;
+	}	
 
+	.row {
+	    margin-right: 0;
+	}
 
+	#site-navigation {
+		background-color: #502d0e;
+	}
+
+	.navbar-brand-box {
+		display: none;
+	}
+	
+	.dropdown-buttons-trigger {
+	    display: none;
+	}
+	
+	a.full-screen-button {
+	    display: none;
+	}
+}
 
