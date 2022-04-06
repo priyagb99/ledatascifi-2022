@@ -79,7 +79,9 @@ ul.sidenav_l1:not(.current) {
 /* shift left nav to all the way to left (more page space)   */
 
 .container-xl {
-    margin-left: 0px!important;
+	margin-left: 0px!important;
+	margin-right: 0px!important;
+	max-width: 1800px;
 }
 
 
