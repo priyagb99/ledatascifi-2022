@@ -1,33 +1,52 @@
-/*
-
-*/
- 
 /* make the logo taller */
  
 div.navbar-brand-box a.navbar-brand img {
     max-height: 18vh !important;
 } 
  
+/* base colors for main area, justify text */
+
+body {
+	background-color: #fff;
+    	color: #333
+}
+
+p {
+    text-align: justify;
+}
+
+/* tables on the site have excessive spacing */
+
+.table p {
+	margin-bottom: 0;
+}
+.table td {
+    padding-bottom: 0.25rem;
+    padding-top:    0.25rem;
+    padding-left:   0.5rem;
+    padding-right:  0.5rem;
+}
+
+
+/* -------------------------------------------
+            SIDE NAV OPTIONS
+------------------------------------------- */
+
 /* change the color scheme
 first, set the lehigh light on dark scheme for the sidenav
-via the body css
 
 	Lehigh colors:
 	#ffffff; white
 	#502d0e; // newly added brown
 	#FBDD40; // newly added, yellow  
 	
-and then undo it in the main area (a child of the body)
 */ 
-body {
-	background-color: #502d0e;
-    color: white;
-}
 
-main {
-	background-color: #fff;
-    color: #333;	
-} 	
+#site-navigation {
+	background-color: #502d0e;    	
+	color: white;
+        border-right-width: 0px;
+}
 
 /* other text in nav bar that should be white: */
 .bd-sidebar nav ul.nav li a, .bd-sidebar nav ul.nav ul li a {
@@ -44,38 +63,52 @@ main {
 	color: #502d0e;
 }	
 
-/* shift left nav to left (more page space)   */
-.container-xl {
-    width: 100%;
-    padding-left: 0px;
-    padding-right: 0px;
-    margin-left: 20px;
-}
-
-/* fix uneven right gutter border*/
-.row {
-    margin-right: -40px;
-}
-
-/* topbar covers part of side nav - make transparent */
-.topbar {
-	background-color: transparent;
-}	
-
-/* The side nab should be collapsed except the part you're in */
+/* The side nav should be collapsed except the part you're in */
 
 ul.sidenav_l1:not(.current) {
 	display: none;
 }
 
-.tocsection.onthispage
+.tocsection.onthispage {}
 
-/* tables on the site have excessive spacing */
-/* tried to reduce margin-bottom on p elements (in tables only) to 0 */ 
-/* tried to reduce padding on td elements (in tables only) a bit */
-
-
+/* -------------------------------------------
+            PAGE LAYOUT OPTIONS
+------------------------------------------- */
 
 
+/* shift left nav to all the way to left (more page space)   */
 
+.container-xl {
+	margin-left: 0px!important;
+	margin-right: 0px!important;
+	max-width: 1800px;
+}
+
+
+/* -------------------------------------------
+            mobile site specs 
+------------------------------------------- */
+
+@media print, screen and (max-width: 800px) {
+
+	.margin {
+		display: none;
+	}	
+
+	.section {
+		padding-right: 0px!important;
+	}	
+
+	.navbar-brand-box {
+		display: none;
+	}
+	
+	.dropdown-buttons-trigger {
+	    display: none;
+	}
+	
+	a.full-screen-button {
+	    display: none;
+	}
+}
 
